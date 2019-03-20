@@ -32,3 +32,4 @@ c:\Users\DGon\Documents\Work\TechFabric\AspNetCoreTodo\obj\Debug\netcoreapp2.2\A
 c:\Users\DGon\Documents\Work\TechFabric\AspNetCoreTodo\obj\Debug\netcoreapp2.2\AspNetCoreTodo.pdb
 C:\Users\DGon\Documents\Work\TechFabric\AspNetCoreTodo\obj\Debug\netcoreapp2.2\AspNetCoreTodo.csproj.CopyComplete
 c:\Users\DGon\Documents\Work\TechFabric\AspNetCoreTodo\obj\Debug\netcoreapp2.2\Razor\Views\Todo\Index.g.cshtml.cs
+c:\Users\DGon\Documents\Work\TechFabric\AspNetCoreTodo\obj\Debug\netcoreapp2.2\Razor\Views\Todo\AddItemPartial.g.cshtml.cs
