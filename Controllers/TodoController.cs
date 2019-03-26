@@ -38,7 +38,8 @@ namespace AspNetCoreTodo.Controllers {
             return RedirectToAction("Index");
 
         }
-
+        
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> MarkDone(Guid id) {
             if (id == Guid.Empty) {
                 return RedirectToAction("Index");
