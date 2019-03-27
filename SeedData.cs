@@ -25,12 +25,12 @@ namespace AspNetCoreTodo {
             if (testAdmin != null) return;
 
             testAdmin = new ApplicationUser {
-                UserName = "App Admin",
+                UserName = "admin@techfabric.io",
                 Email = "admin@techfabric.io"
             };
 
-            await userManager.CreateAsync(testAdmin, "Admin_pass123!");
-            await userManager.AddToRoleAsync(testAdmin, Constants.AdministratorRole);
+            var createUserResult = await userManager.CreateAsync(testAdmin, "Admin_pass123!");
+            var addRoleToUserResult = await userManager.AddToRoleAsync(testAdmin, Constants.AdministratorRole);
         }
 
         private static async Task EnsureRolesAsync(RoleManager<IdentityRole> roleManager) {
